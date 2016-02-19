@@ -132,6 +132,7 @@ public class HystrixCommandDemo {
                     StringBuilder out = new StringBuilder();
                     out.append("\n");
                     out.append("#####################################################################################").append("\n");
+                    out.append("   Xiaoyu Played :-D  ").append("\n");
                     out.append("# CreditCardCommand: " + getStatsStringFromMetrics(creditCardMetrics)).append("\n");
                     out.append("# GetOrderCommand: " + getStatsStringFromMetrics(orderMetrics)).append("\n");
                     out.append("# GetUserAccountCommand: " + getStatsStringFromMetrics(userAccountMetrics)).append("\n");
